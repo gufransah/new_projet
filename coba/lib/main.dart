@@ -13,25 +13,31 @@ class LoginForm extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Ini Title app bar'),
+          title: Text('Tugas anca'),
         ),
         body: Column(
           children: [
-            SizedBox(height: 200,),
-            Padding(padding: const EdgeInsets.all(8.0),
-            child: TextFormField(
-              decoration: InputDecoration(
-                  labelText: 'Username',
-                  border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(30))),
-            ),),
-            Padding(padding: const EdgeInsets.all(8.0),
-            child: TextFormField(
-              decoration: InputDecoration(
-                  labelText: 'Password',
-                  border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(30))),
-            ),),
+            SizedBox(
+              height: 200,
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextFormField(
+                decoration: InputDecoration(
+                    labelText: 'Username',
+                    border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(30))),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextFormField(
+                decoration: InputDecoration(
+                    labelText: 'Password',
+                    border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(30))),
+              ),
+            ),
           ],
         ),
       ),
